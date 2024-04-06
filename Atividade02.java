@@ -1,4 +1,4 @@
-package atividade02.Xuxa;
+package atividade02;
 
 public class Xuxa {
     public static void main(String[]args){
