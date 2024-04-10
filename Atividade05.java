@@ -30,6 +30,14 @@ public class CarroTeste {
         carro1.ano = 2011;
         carro1.vel = 100;
 
+        System.out.println("Nome do carro: " + carro1.nome);
+
+        System.out.println ("Marca do carro: " + carro1.marca);
+
+        System.out.println("Cor do carro: " + carro1.cor);
+
+        System.out.println("Ano do carro: " + carro1.ano);
+
         carro1.acelerar(20);
 
         System.out.println("Velocidade do carro: " + carro1.vel + "Km/h");
@@ -37,7 +45,7 @@ public class CarroTeste {
         carro1.freio(40);
 
         System.out.println("Velocidade do carro: " + carro1.vel + "Km/h");
-
+        
 
     }
 }
